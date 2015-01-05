@@ -32,6 +32,7 @@ class csync2 (
     $config_file        = params_lookup('config_file'),
     $config_source      = params_lookup('config_source'),
     $config_template    = params_lookup('config_template'),
+    $disabled_hosts     = params_lookup('disabled_hosts'),
     $key                = params_lookup('key'),
     $keyfile            = params_lookup('keyfile'),
     ) inherits csync2::params {
@@ -41,11 +42,11 @@ class csync2 (
     }
 
     file { $config_file:
-        mode    => '0644',
-        owner   => 'root',
-        group   => 'root',
-        tag     => 'csync2_config',
-        notify  => Service['csync2']
+        mode   => '0644',
+        owner  => 'root',
+        group  => 'root',
+        tag    => 'csync2_config',
+        notify => Service['csync2']
     }
 
     # Disable service on this host, if hostname is in disabled_hosts
