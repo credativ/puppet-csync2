@@ -1,0 +1,7 @@
+csync2_ensure: true
+
+#csync2_config_source: puppet:///files/csync2.conf
+#csync2_config_template: csync2.conf.erb
+#csync2_disabled_hosts:
+#  - testhost1
+
