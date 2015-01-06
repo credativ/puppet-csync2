@@ -21,7 +21,9 @@
 # [* config_template *]
 #   Override the default choice for the configuration template
 #
-#
+# [* options *]
+#    Allow to pass a custom options hash for use with a custom
+#    config_template. This is not used by default.
 
 class csync2 (
     $ensure             = params_lookup('ensure'),
@@ -31,6 +33,7 @@ class csync2 (
     $config_template    = params_lookup('config_template'),
     $key                = params_lookup('key'),
     $keyfile            = params_lookup('keyfile'),
+    $options            = params_lookup('options'),
     ) inherits csync2::params {
 
     package { 'csync2':

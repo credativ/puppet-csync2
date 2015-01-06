@@ -1,3 +1,9 @@
+puppet-module-csync2 (1.0.5) unstable; urgency=medium
+
+  * Allow to pass a custom options hash
+
+ -- Patrick Schoenfeld <patrick.schoenfeld@credativ.de>  Tue, 06 Jan 2015 17:57:49 +0100
+
 puppet-module-csync2 (1.0.4) unstable; urgency=medium
 
   * Bugfix in manifests/init.pp 
