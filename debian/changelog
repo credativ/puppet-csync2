@@ -1,3 +1,9 @@
+puppet-module-csync2 (1.0.2) unstable; urgency=medium
+
+  * Some bugfixes 
+
+ -- Patrick Schoenfeld <patrick.schoenfeld@credativ.de>  Tue, 06 Jan 2015 10:28:33 +0100
+
 puppet-module-csync2 (1.0.1) unstable; urgency=low
 
   * Initial release.
