@@ -49,7 +49,7 @@ class csync2 (
             source  => $config_source
         }
     } elsif $config_template {
-        File <| tag t== 'csync2_config' |> {
+        File <| tag == 'csync2_config' |> {
             content => template($config_template)
         }
     }
