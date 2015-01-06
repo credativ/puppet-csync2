@@ -21,9 +21,6 @@
 # [* config_template *]
 #   Override the default choice for the configuration template
 #
-# [* disabled_hosts *]
-#   A list of hosts whose csync2 will be disabled, if their
-#   hostname matches a name in the list.
 #
 
 class csync2 (
@@ -32,7 +29,6 @@ class csync2 (
     $config_file        = params_lookup('config_file'),
     $config_source      = params_lookup('config_source'),
     $config_template    = params_lookup('config_template'),
-    $disabled_hosts     = params_lookup('disabled_hosts'),
     $key                = params_lookup('key'),
     $keyfile            = params_lookup('keyfile'),
     ) inherits csync2::params {
@@ -46,15 +42,6 @@ class csync2 (
         owner  => 'root',
         group  => 'root',
         tag    => 'csync2_config',
-        notify => Service['csync2']
-    }
-
-    # Disable service on this host, if hostname is in disabled_hosts
-    if $::hostname in $disabled_hosts {
-        Service <| title == 'csync2' |> {
-            ensure  => 'stopped',
-            enabled => false,
-        }
     }
 
     if $config_source {
