@@ -1,3 +1,9 @@
+puppet-module-csync2 (1.0.4) unstable; urgency=medium
+
+  * Bugfix in manifests/init.pp 
+
+ -- Patrick Schoenfeld <patrick.schoenfeld@credativ.de>  Tue, 06 Jan 2015 11:37:49 +0100
+
 puppet-module-csync2 (1.0.3) unstable; urgency=medium
 
   * Actually use config_template as template 
