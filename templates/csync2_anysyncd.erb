@@ -1,0 +1,16 @@
+# Example template to configure csync2 analog to anysyncd
+
+nossl * *;
+
+<% @options['anysync_syncers'].each do |syncname,opts| -%>
+group <%= syncname %>
+{
+<% opts['hosts'].each do |host| -%>
+    host <%= host %>;
+<% end %>
+    key <%= keyfile %>;
+    include "<%= opts['csync2_dir'] %>";
+    exclude *~ .*;
+    auto none;
+}
+<% end %>
