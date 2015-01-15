@@ -1,6 +1,5 @@
 manifests   usr/share/puppet/modules.available/puppet-module-csync2
 templates   usr/share/puppet/modules.available/puppet-module-csync2
-files       usr/share/puppet/modules.available/puppet-module-csync2
 spec        usr/share/puppet/modules.available/puppet-module-csync2
 Rakefile    usr/share/puppet/modules.available/puppet-module-csync2
 Gemfile     usr/share/puppet/modules.available/puppet-module-csync2
