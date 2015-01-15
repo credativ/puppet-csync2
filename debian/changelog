@@ -1,3 +1,9 @@
+puppet-module-csync2 (1.0.7) unstable; urgency=medium
+
+  * Add an example template 
+
+ -- Patrick Schoenfeld <patrick.schoenfeld@credativ.de>  Thu, 15 Jan 2015 11:57:19 +0100
+
 puppet-module-csync2 (1.0.6) unstable; urgency=medium
 
   * New upstream version:
