@@ -1,0 +1,6 @@
+fixtures:
+  repositories:
+    stdlib: git://github.com/puppetlabs/puppetlabs-stdlib.git
+    example42libs: git://github.com/credativ/puppet-example42lib.git
+  symlinks:
+    csync2: "#{source_dir}"
