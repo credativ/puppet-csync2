@@ -45,10 +45,10 @@ class csync2 (
     }
 
     file { $config_file:
-        mode   => '0644',
-        owner  => 'root',
-        group  => 'root',
-        tag    => 'csync2_config',
+        mode  => '0644',
+        owner => 'root',
+        group => 'root',
+        tag   => 'csync2_config',
     }
 
     if $config_source {
