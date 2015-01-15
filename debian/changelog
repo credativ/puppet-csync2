@@ -1,3 +1,11 @@
+puppet-module-csync2 (1.0.6) unstable; urgency=medium
+
+  * New upstream version:
+    + Implements proper permissions on keyfile
+    + Add some documentation and tests
+
+ -- Patrick Schoenfeld <patrick.schoenfeld@credativ.de>  Thu, 15 Jan 2015 10:56:50 +0100
+
 puppet-module-csync2 (1.0.5) unstable; urgency=medium
 
   * Allow to pass a custom options hash
