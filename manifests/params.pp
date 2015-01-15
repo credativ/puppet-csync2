@@ -1,3 +1,4 @@
+# = Class: csync2::params
 class csync2::params {
     $ensure         = 'present'
     $ensure_running = true
