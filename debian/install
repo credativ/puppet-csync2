@@ -1,8 +1,8 @@
-manifests   usr/share/puppet/modules.available/puppet-module-csync2
-templates   usr/share/puppet/modules.available/puppet-module-csync2
-spec        usr/share/puppet/modules.available/puppet-module-csync2
-Rakefile    usr/share/puppet/modules.available/puppet-module-csync2
-Gemfile     usr/share/puppet/modules.available/puppet-module-csync2
+manifests   usr/share/puppet/modules.available/csync2
+templates   usr/share/puppet/modules.available/csync2
+spec        usr/share/puppet/modules.available/csync2
+Rakefile    usr/share/puppet/modules.available/csync2
+Gemfile     usr/share/puppet/modules.available/csync2
 LICENSE     usr/share/doc/puppet-module-csync2
 README*     usr/share/doc/puppet-module-csync2
 examples/*  usr/share/doc/puppet-module-csync2/examples
