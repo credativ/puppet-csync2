@@ -5,10 +5,10 @@
 1. [Overview](#overview)
 2. [Module Description - What the module does and why it is useful](#module-description)
 3. [Backwards incompatibility](#backwards-incompatibility)
-4. [Setup - The basics of getting started with ssh](#setup)
-    * [What ssh affects](#what-ssh-affects)
+4. [Setup - The basics of getting started with csync2](#setup)
+    * [What csync2 affects](#what-csync2-affects)
     * [Setup requirements](#setup-requirements)
-    * [Beginning with ssh](#beginning-with-ssh)
+    * [Beginning with csync2](#beginning-with-csync2)
 5. [Usage - Configuration options and additional functionality](#usage)
 6. [Reference - An under-the-hood peek at what the module is doing and how](#reference)
 7. [Limitations - OS compatibility, etc.](#limitations)
@@ -27,7 +27,7 @@ template.
 
 ## Setup
 
-### What ssh effects
+### What csync2 effects
 
 * csync2 package
 * csync2 main configuration file (/etc/csync2.cfg)
