@@ -13,6 +13,10 @@ describe 'csync2' do
                 :group  => 'root',
                 :mode   => '0644'
            )}
-
+        it { should contain_file('/etc/csync2.key').with(
+                :owner  => 'root',
+                :group  => 'root',
+                :mode   => '0600'
+           )}
     end
 end

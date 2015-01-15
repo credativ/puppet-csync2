@@ -63,7 +63,10 @@ class csync2 (
 
     file { $keyfile:
         ensure  => present,
-        content => $key
+        owner   => 'root',
+        group   => 'root',
+        mode    => '0600',
+        content => $key,
     }
 }
 
