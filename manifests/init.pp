@@ -13,6 +13,10 @@
 #   What state to ensure for the package. Accepts the same values
 #   as the parameter of the same name for a package type.
 #   Default: present
+#
+# [* manage_config *]
+#   Whether to manage the configuration of csync2 or not.
+#   Default: true
 #   
 # [* config_source *]
 #   Specify a configuration source for the configuration. If this
