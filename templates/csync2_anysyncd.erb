@@ -9,7 +9,7 @@ group <%= syncname %>
     host <%= host %>;
 <% end %>
     key <%= keyfile %>;
-    include "<%= opts['csync2_dir'] %>";
+    include "<%= opts['csync_dir'] %>";
     exclude *~ .*;
     auto none;
 }
