@@ -1,4 +1,4 @@
-puppet-module-csync2 (1.0.8) UNRELEASED; urgency=medium
+puppet-module-csync2 (1.0.8) unstable; urgency=medium
 
   * Fix install path
   * Fix metadata.json
