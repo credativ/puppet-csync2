@@ -1,4 +1,17 @@
-puppet-module-csync2 (1.0.8) UNRELEASED; urgency=medium
+puppet-module-csync2 (1.0.9) UNRELEASED; urgency=medium
+
+  [ Arnd Hannemann ]
+  * use global csync2 options hosts in csync2 example anysyncd template
+  * anysyncd config hash uses csync_dir not csync2_dir
+
+  [ Maximilian Gaß ]
+  * Fix changelog for release 1.0.8
+
+  [ Arnd Hannemann ]
+
+ -- Arnd Hannemann <arnd@arndnet.de>  Fri, 26 Feb 2016 16:57:10 +0000
+
+puppet-module-csync2 (1.0.8) unstable; urgency=medium
 
   * Fix install path
   * Fix metadata.json
