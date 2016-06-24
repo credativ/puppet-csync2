@@ -1,4 +1,4 @@
-puppet-module-csync2 (1.0.9) UNRELEASED; urgency=medium
+puppet-module-csync2 (1.0.10) UNRELEASED; urgency=medium
 
   [ Arnd Hannemann ]
   * use global csync2 options hosts in csync2 example anysyncd template
@@ -9,7 +9,10 @@ puppet-module-csync2 (1.0.9) UNRELEASED; urgency=medium
 
   [ Arnd Hannemann ]
 
- -- Arnd Hannemann <arnd@arndnet.de>  Fri, 26 Feb 2016 16:57:10 +0000
+  [ Patrick Schoenfeld ]
+  * Add/Update some module files
+
+ -- Patrick Schoenfeld <patrick.schoenfeld@credativ.de>  Fri, 24 Jun 2016 15:05:35 +0000
 
 puppet-module-csync2 (1.0.8) unstable; urgency=medium
 
