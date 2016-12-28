@@ -30,14 +30,14 @@
 #    config_template. This is not used by default.
 
 class csync2 (
-    $ensure             = params_lookup('ensure'),
-    $manage_config      = params_lookup('manage_config'),
-    $config_file        = params_lookup('config_file'),
-    $config_source      = params_lookup('config_source'),
-    $config_template    = params_lookup('config_template'),
-    $key                = params_lookup('key'),
-    $keyfile            = params_lookup('keyfile'),
-    $options            = params_lookup('options'),
+    $ensure             = $::csync2::params::ensure,
+    $manage_config      = $::csync2::params::manage_config,
+    $config_file        = $::csync2::params::config_file,
+    $config_source      = $::csync2::params::config_source,
+    $config_template    = $::csync2::params::config_template,
+    $key                = $::csync2::params::key,
+    $keyfile            = $::csync2::params::keyfile,
+    $options            = $::csync2::params::options,
     ) inherits csync2::params {
 
     package { 'csync2':

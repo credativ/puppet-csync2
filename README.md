@@ -52,29 +52,11 @@ class { '::csync2':
 }
 ```
 
-### Setup requirements
-
-This module template requires the params_lookup function as found in the example42
-puppi module (https://github.com/credativ/puppet-example42lib)
-
 ##Usage
 
 You can include the classes you need and configure it via the parameters it
 supports. Please see the class docs for supported parameters and their
 meaning.
-
-It also does automatic parameter lookups via the params_lookup function.
-That way, there are several ways to feed parameters into classes created
-with this module:
-
-- via parameters
-- by setting global variables, e.g.
-
-    $csync2_config_template = "foobar.erb"
-
-- by setting it in hiera, e.g.
-
-    csync2_manage_config: false 
 
 ### Classes
 
